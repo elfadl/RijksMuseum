@@ -8,6 +8,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\LENOVO\\AndroidStudioProjects\\RijksMuseum\\keystore.jks')
+            storePassword 'rijksmuseum'
+            keyAlias 'rijks museum app'
+            keyPassword 'rijksmuseum'
+        }
+    }
     compileSdk 31
 
     defaultConfig {
@@ -20,6 +28,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "API_KEY", '"4Afidk9H"')
         buildConfigField("String", "BASE_URL", '"https://www.rijksmuseum.nl/api/en/"')
+        signingConfig signingConfigs.release
     }
 
     buildTypes {
