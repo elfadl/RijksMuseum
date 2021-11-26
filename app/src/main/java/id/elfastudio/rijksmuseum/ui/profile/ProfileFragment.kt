@@ -40,11 +40,10 @@ class ProfileFragment : Fragment() {
         Firebase.auth.currentUser?.let {
             context?.let { ctx ->
                 Glide.with(ctx)
-                    .load(it.photoUrl)
-                    .apply {
-                        CircleCrop()
-                    }
-                    .placeholder(R.mipmap.ic_launcher_round)
+                    .load(if (it.photoUrl == null) R.drawable.ic_profile_pic else it.photoUrl == null)
+                    .placeholder(R.mipmap.ic_launcher)
+                    .centerCrop()
+                    .circleCrop()
                     .into(binding.imgProfile)
             }
             binding.tvEmail.text = it.email
