@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "8908052289",
+    "project_id": "rijks-museum-e8e55",
+    "storage_bucket": "rijks-museum-e8e55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8908052289:android:cb5cb9cb2de117df9f33c0",
+        "android_client_info": {
+          "package_name": "id.elfastudio.rijksmuseum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8908052289-pfp1tltg2tcepkjf2bpq56lar77itrn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.elfastudio.rijksmuseum",
+            "certificate_hash": "19067c0a88e6903cb59368924f40fbf5218247bb"
+          }
+        },
+        {
+          "client_id": "8908052289-dg25k492qojqnkkparumos9vvmt8jd3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEA2toK0hOecsCHkK8g7PhoMMVbEZ1jwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8908052289-dg25k492qojqnkkparumos9vvmt8jd3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

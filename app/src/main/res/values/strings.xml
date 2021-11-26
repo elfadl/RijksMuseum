@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Rijks Museum</string>
+    <string name="register">REGISTER</string>
+    <string name="email_address">Email Address</string>
+    <string name="tnd_agreement">I Agree with Terms and Condition</string>
+    <string name="err_empty_email">Email should not be empty</string>
+    <string name="err_not_valid_email">Email is not valid</string>
+    <string name="err_empty_password">Password should not be empty</string>
+    <string name="login">LOGIN</string>
+    <string name="msg_not_have_account">Don’t have account ?</string>
+    <string name="msg_registration_success">Registration successful! Please log in with your new account.</string>
+    <string name="password">Password</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="msg_loading">Collecting data . . .</string>
+    <string name="msg_empty">Data is empty</string>
+    <string name="detail">Detail</string>
+    <string name="logout">LOGOUT</string>
+    <string name="title_logout_confirmation">Logout Confirmation</string>
+    <string name="msg_logout_confirmation">Are you sure you want to log out?</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+</resources>
